@@ -1,0 +1,22 @@
+OT DB
+Procedure
+1. Create procedure which takes CUSTOMER_ID and finds name of the customer and his/her
+address using IN and OUT parameters.
+2. Write a procedure with no parameters.The procedure should say whether the current day is a
+weekend or weekday. Additionally, it should tell you the user’s name and the current time.
+3. Write a procedure that takes customer_id, and email, phone, first and last name of contact
+person and inserts the values into the contacts table. It should check to see if the contacts is
+already in the database.
+Function
+1. Create function which is a check to see if the employee ID passed in exists in the database.
+The function should take in a NUMBER datatype (which is assumed to be an employee ID)
+and returns a BOOLEAN value. TRUE - if exists, FALSE- if not.
+2. Create a new function. For a given employee, determine from when he or she is working. If the
+date greater than 4 years, return a message saying that the employee needs a vacation.
+Otherwise, return a message saying how many years this employee is working.
+3. Create a new function. For a given CUSTOMER_ID, determine how many times he/she
+ordered. If the number more than 10 times, return a message saying that the customer is the
+VIP. Otherwise, return a message saying how many times he/she ordered.
+Package
+1. Combine previous functions and procedures under one two packages. Define role of
+combinations by yourself and be able to explain why
